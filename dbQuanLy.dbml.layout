@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="dbQuanLy">
+  <DataContextMoniker Name="/dbQuanLyDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0394c6be-8f67-4b7b-8cbc-b49b6584b462" absoluteBounds="0.75, 2.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/dbQuanLyDataContext/Khoa" />
+      <nestedChildShapes>
+        <elementListCompartment Id="81313dc2-330c-4cc8-bc22-10baa3359a28" absoluteBounds="0.765, 3.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="05330bf6-9c01-4be2-8588-0c7b1f3d4374" absoluteBounds="3.5, 1, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/dbQuanLyDataContext/MonHoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5095e6d9-d43f-4e36-a2e0-71d364b30165" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 3.35744516145833); (4.5 : 3.35744516145833); (4.5 : 2.77089680989583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbQuanLyDataContext/Khoa/Khoa_MonHoc" />
+      <nodes>
+        <classShapeMoniker Id="0394c6be-8f67-4b7b-8cbc-b49b6584b462" />
+        <classShapeMoniker Id="05330bf6-9c01-4be2-8588-0c7b1f3d4374" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5d926b38-2ab0-4155-a134-f4998e7ff578" absoluteBounds="6.5, 3, 2, 1.3862939453125">
+      <DataClassMoniker Name="/dbQuanLyDataContext/KetQua" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fa32e192-0f91-43bd-8dae-7aa720d44a7c" absoluteBounds="6.515, 3.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 1.88544840494792); (7.5 : 1.88544840494792); (7.5 : 3)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbQuanLyDataContext/MonHoc/MonHoc_KetQua" />
+      <nodes>
+        <classShapeMoniker Id="05330bf6-9c01-4be2-8588-0c7b1f3d4374" />
+        <classShapeMoniker Id="5d926b38-2ab0-4155-a134-f4998e7ff578" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="543dfd84-22ab-4e06-a0a0-5068048cd33e" absoluteBounds="4.125, 4.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/dbQuanLyDataContext/SinhVien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="947eb812-8281-4b2f-a146-ba625980f851" absoluteBounds="4.14, 4.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.125 : 4.375); (5.125 : 3.6874995); (5.76041666666667 : 3.6874995 : JumpStart); (5.92708333333333 : 3.6874995 : JumpEnd); (6.5 : 3.6874995)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbQuanLyDataContext/SinhVien/SinhVien_KetQua" />
+      <nodes>
+        <classShapeMoniker Id="543dfd84-22ab-4e06-a0a0-5068048cd33e" />
+        <classShapeMoniker Id="5d926b38-2ab0-4155-a134-f4998e7ff578" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.06416848567708); (4.41666666666667 : 3.06416848567708 : JumpStart); (4.58333333333333 : 3.06416848567708 : JumpEnd); (5.84375 : 3.06416848567708); (5.84375 : 4.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/dbQuanLyDataContext/Khoa/Khoa_SinhVien" />
+      <nodes>
+        <classShapeMoniker Id="0394c6be-8f67-4b7b-8cbc-b49b6584b462" />
+        <classShapeMoniker Id="543dfd84-22ab-4e06-a0a0-5068048cd33e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="178137a7-8d2a-4d38-96ca-af7bd313d0ce" absoluteBounds="1.375, 4.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/dbQuanLyDataContext/NguoiDung" />
+      <nestedChildShapes>
+        <elementListCompartment Id="09c45778-6614-4002-b02f-def076344424" absoluteBounds="1.3900000000000001, 4.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
